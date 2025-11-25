@@ -66,14 +66,14 @@ When load_employees or load_departments runs, it opens the file in read mode (�
 4. Breakdown of Contributions  
 This project splits into three big parts, with each team member responsible for one :
 
-1) Data Structures & Memory Management  
-Team Member A() set up the Employee, Department, and JoinedRecord structs, plus all the functions for walking through and freeing the lists—free_employee_list, free_department_list, free_joined_record_list, and the single-node free functions(free_employee_node, free_department_node, free_joined_record_node). They also wrote create_employee and create_department.
+1) Data Structures & Memory Management  (N Bhargava - BA2025026)
+-> set up the Employee, Department, and JoinedRecord structs, plus all the functions for walking through and freeing the lists—free_employee_list, free_department_list, free_joined_record_list, and the single-node free functions(free_employee_node, free_department_node, free_joined_record_node). They also wrote create_employee and create_department.
 
-2) CRUD & Relational Functions  
-Team Member B() built the main logic for the program: adding employees and departments, displaying lists, updating salaries, deleting employees (by id or by department), deleting departments, and the key perform_join function.
+2) CRUD & Relational Functions  (K Saathwik Reddy - BA2025020)
+-> built the main logic for the program: adding employees and departments, displaying lists, updating salaries, deleting employees (by id or by department), deleting departments, and the key perform_join function.
 
-3) File I/O and user Interface  
-Team Member C() handled saving and loading for employees and departments (save_employees, load_employees, save_departments, load_departments). They also set up the user interface functions: display_menu, the main program loop (with the switch for user choices, loading at start, saving at exit), and helper functions for input like add_department.
+3) File I/O and user Interface  (G Raadhesh - BA2025014)
+-> handled saving and loading for employees and departments (save_employees, load_employees, save_departments, load_departments). They also set up the user interface functions: display_menu, the main program loop (with the switch for user choices, loading at start, saving at exit), and helper functions for input like add_department.
 
 5. Function Explanations
 
